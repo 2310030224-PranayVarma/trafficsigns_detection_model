@@ -4,6 +4,11 @@
 
 This project implements a traffic sign detection system using a Convolutional Neural Network (CNN) and the German Traffic Sign Recognition Benchmark (GTSRB) dataset. The system is capable of detecting traffic signs from images and classifying them based on trained models.
 
+![image](https://github.com/user-attachments/assets/fc8cc435-1103-4c5f-b156-955a47047f79)
+![image](https://github.com/user-attachments/assets/ebffe2bc-8152-481b-b67d-335033972971)
+
+
+
 ## Table of Contents
 - [Overview](#overview)
 - [Dataset](#dataset)
@@ -160,6 +165,9 @@ traffic_sign_detection/
 
 ## Results
 After training, the model achieves a test accuracy of approximately **99.2%** on the GTSRB dataset. This high accuracy demonstrates the model's ability to correctly classify traffic signs.
+
+![image](https://github.com/user-attachments/assets/df972399-31f6-40f1-ace3-6a3d63fa6cdc)
+
 
 ## Credits
 - Dataset: [German Traffic Sign Recognition Benchmark (GTSRB)](https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign?resource=download)
