@@ -20,7 +20,7 @@ This project implements a traffic sign detection system using a Convolutional Ne
 This project trains a CNN to classify traffic signs using the GTSRB dataset. The model achieves high accuracy on the test set and can be used to classify traffic signs from user-uploaded images through a simple GUI.
 
 ## Dataset
-The dataset used is the [German Traffic Sign Recognition Benchmark (GTSRB)](https://www.kaggle.com/competitions/gertraffic-data), which contains over 50,000 images of 43 different types of traffic signs. 
+The dataset used is the [German Traffic Sign Recognition Benchmark (GTSRB)](https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign?resource=download), which contains over 50,000 images of 43 different types of traffic signs. 
 
 The dataset contains:
 - **Meta folder**: Metadata related to the dataset.
@@ -55,7 +55,7 @@ The model is trained with the Adam optimizer and categorical cross-entropy loss.
 
 ### Training the Model
 
-1. Download and extract the [GTSRB dataset](https://www.kaggle.com/competitions/gertraffic-data) into the `data` directory of the project. Ensure the structure is as follows:
+1. Download and extract the [GTSRB dataset](https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign?resource=download) into the `data` directory of the project. Ensure the structure is as follows:
     ```
     data/
       GTSRB/
