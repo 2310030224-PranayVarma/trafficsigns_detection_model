@@ -1,0 +1,1 @@
+{"name":"Local: train","url":"c:\\Users\\npran\\OneDrive\\Desktop\\traf\\traffic_sign_detection\\src\\train.py","tests":[{"id":1728399790417,"input":"","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\npran\\OneDrive\\Desktop\\traf\\traffic_sign_detection\\src\\train.py","group":"local","local":true}
