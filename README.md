@@ -1,5 +1,3 @@
-Here’s an example of how your `README.md` file can look for your Traffic Sign Detection project:
-
 ---
 
 # Traffic Sign Detection Using CNN
@@ -111,7 +109,7 @@ traffic_sign_detection/
 After training, the model achieves a test accuracy of approximately **99.2%** on the GTSRB dataset. This high accuracy demonstrates the model's ability to correctly classify traffic signs.
 
 ## Credits
-- Dataset: [German Traffic Sign Recognition Benchmark (GTSRB)](https://www.kaggle.com/competitions/gertraffic-data)
+- Dataset: [German Traffic Sign Recognition Benchmark (GTSRB)](https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign?resource=download)
 - TensorFlow and Keras for model building.
 - OpenCV for image preprocessing.
 
