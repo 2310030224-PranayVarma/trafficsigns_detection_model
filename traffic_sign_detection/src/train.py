@@ -34,6 +34,7 @@ def plot_training_history(history):
 
 def main():
     data_dir = 'path\\traffic_sign_detection\\data\\GTSRB'
+
     X_train, X_test, y_train, y_test = preprocess_data(data_dir)
 
     # Determine the number of classes
@@ -45,7 +46,7 @@ def main():
     history = model.fit(X_train, y_train, epochs=10, validation_data=(X_test, y_test))
 
     # Save the model
-    model_dir = 'path\\traf\\traffic_sign_detection\\model'
+    model_dir = 'path\\traffic_sign_detection\\model'
     if not os.path.exists(model_dir):
         os.makedirs(model_dir)
     

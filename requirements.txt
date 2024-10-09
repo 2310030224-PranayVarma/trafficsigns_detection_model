@@ -3,3 +3,4 @@ opencv-python
 numpy
 matplotlib
 pandas
+python3-tk
