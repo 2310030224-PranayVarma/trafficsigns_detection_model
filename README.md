@@ -45,7 +45,7 @@ The model is trained with the Adam optimizer and categorical cross-entropy loss.
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/traffic_sign_detection.git
+    git clone https://github.com/2310030224-PranayVarma/trafficsigns_detection_model.git
     ```
 2. Navigate to the project directory:
     ```bash
@@ -73,6 +73,7 @@ The model is trained with the Adam optimizer and categorical cross-entropy loss.
     ```bash
     python src/train.py
     ```
+
 
 The trained model will be saved as `traffic_sign_model.h5` in the `model/` directory.
 
@@ -138,7 +139,7 @@ This table clearly lists each traffic sign label along with its corresponding de
     python src/gui.py
     ```
 
-3. In the GUI, click "Upload Image" to select an image of a traffic sign. The model will classify the image and display the predicted traffic sign.
+3. In the GUI, click "Upload Image" to select an image of a traffic sign. The model will detect and classify the image and display the predicted traffic sign.
 
 ## File Structure
 ```
