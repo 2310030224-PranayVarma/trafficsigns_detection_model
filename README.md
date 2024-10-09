@@ -74,6 +74,8 @@ The model is trained with the Adam optimizer and categorical cross-entropy loss.
     python src/train.py
     ```
 
+##Don't forget to change the `data_dir` as `path\data\gtsrb` path and `model_dir` for correct training in `src\train.py` else it won't work
+
 
 The trained model will be saved as `traffic_sign_model.h5` in the `model/` directory.
 
